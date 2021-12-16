@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BF7F0FC2768DE8500D3961D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF7F0FB2768DE8500D3961D /* AppDelegate.m */; };
+		2BF7F0FF2768DE8500D3961D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF7F0FE2768DE8500D3961D /* SceneDelegate.m */; };
+		2BF7F1022768DE8500D3961D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF7F1012768DE8500D3961D /* ViewController.m */; };
+		2BF7F1052768DE8500D3961D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BF7F1032768DE8500D3961D /* Main.storyboard */; };
+		2BF7F1072768DE8600D3961D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BF7F1062768DE8600D3961D /* Assets.xcassets */; };
+		2BF7F10A2768DE8600D3961D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BF7F1082768DE8600D3961D /* LaunchScreen.storyboard */; };
+		2BF7F10D2768DE8600D3961D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF7F10C2768DE8600D3961D /* main.m */; };
+		2BF7F1152768DEA400D3961D /* TapGestureRecognizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF7F1142768DEA400D3961D /* TapGestureRecognizerViewController.m */; };
+		2BF7F1182768E06400D3961D /* SwipeGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF7F1172768E06400D3961D /* SwipeGestureRecognizer.m */; };
+		2BF7F11B2768E3D500D3961D /* LongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF7F11A2768E3D500D3961D /* LongPressGestureRecognizer.m */; };
+		2BF7F11E2768E44D00D3961D /* PanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF7F11D2768E44D00D3961D /* PanGestureRecognizer.m */; };
+		2BF7F1212768E4AC00D3961D /* ScreenEdgePanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF7F1202768E4AC00D3961D /* ScreenEdgePanGestureRecognizer.m */; };
+		2BF7F1242769910D00D3961D /* PinchGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF7F1232769910D00D3961D /* PinchGestureRecognizer.m */; };
+		2BF7F1272769918A00D3961D /* RotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF7F1262769918A00D3961D /* RotationGestureRecognizer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2BF7F0F72768DE8500D3961D /* Gesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BF7F0FA2768DE8500D3961D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BF7F0FB2768DE8500D3961D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BF7F0FD2768DE8500D3961D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2BF7F0FE2768DE8500D3961D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2BF7F1002768DE8500D3961D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2BF7F1012768DE8500D3961D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2BF7F1042768DE8500D3961D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2BF7F1062768DE8600D3961D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BF7F1092768DE8600D3961D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2BF7F10B2768DE8600D3961D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BF7F10C2768DE8600D3961D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BF7F1132768DEA400D3961D /* TapGestureRecognizerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapGestureRecognizerViewController.h; sourceTree = "<group>"; };
+		2BF7F1142768DEA400D3961D /* TapGestureRecognizerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapGestureRecognizerViewController.m; sourceTree = "<group>"; };
+		2BF7F1162768E06400D3961D /* SwipeGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeGestureRecognizer.h; sourceTree = "<group>"; };
+		2BF7F1172768E06400D3961D /* SwipeGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeGestureRecognizer.m; sourceTree = "<group>"; };
+		2BF7F1192768E3D500D3961D /* LongPressGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		2BF7F11A2768E3D500D3961D /* LongPressGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		2BF7F11C2768E44D00D3961D /* PanGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanGestureRecognizer.h; sourceTree = "<group>"; };
+		2BF7F11D2768E44D00D3961D /* PanGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanGestureRecognizer.m; sourceTree = "<group>"; };
+		2BF7F11F2768E4AC00D3961D /* ScreenEdgePanGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenEdgePanGestureRecognizer.h; sourceTree = "<group>"; };
+		2BF7F1202768E4AC00D3961D /* ScreenEdgePanGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenEdgePanGestureRecognizer.m; sourceTree = "<group>"; };
+		2BF7F1222769910D00D3961D /* PinchGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinchGestureRecognizer.h; sourceTree = "<group>"; };
+		2BF7F1232769910D00D3961D /* PinchGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchGestureRecognizer.m; sourceTree = "<group>"; };
+		2BF7F1252769918A00D3961D /* RotationGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotationGestureRecognizer.h; sourceTree = "<group>"; };
+		2BF7F1262769918A00D3961D /* RotationGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotationGestureRecognizer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BF7F0F42768DE8400D3961D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BF7F0EE2768DE8400D3961D = {
+			isa = PBXGroup;
+			children = (
+				2BF7F0F92768DE8500D3961D /* Gesture */,
+				2BF7F0F82768DE8500D3961D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BF7F0F82768DE8500D3961D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BF7F0F72768DE8500D3961D /* Gesture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BF7F0F92768DE8500D3961D /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				2BF7F0FA2768DE8500D3961D /* AppDelegate.h */,
+				2BF7F0FB2768DE8500D3961D /* AppDelegate.m */,
+				2BF7F0FD2768DE8500D3961D /* SceneDelegate.h */,
+				2BF7F0FE2768DE8500D3961D /* SceneDelegate.m */,
+				2BF7F1002768DE8500D3961D /* ViewController.h */,
+				2BF7F1012768DE8500D3961D /* ViewController.m */,
+				2BF7F1032768DE8500D3961D /* Main.storyboard */,
+				2BF7F1062768DE8600D3961D /* Assets.xcassets */,
+				2BF7F1082768DE8600D3961D /* LaunchScreen.storyboard */,
+				2BF7F10B2768DE8600D3961D /* Info.plist */,
+				2BF7F10C2768DE8600D3961D /* main.m */,
+				2BF7F1132768DEA400D3961D /* TapGestureRecognizerViewController.h */,
+				2BF7F1142768DEA400D3961D /* TapGestureRecognizerViewController.m */,
+				2BF7F1162768E06400D3961D /* SwipeGestureRecognizer.h */,
+				2BF7F1172768E06400D3961D /* SwipeGestureRecognizer.m */,
+				2BF7F1192768E3D500D3961D /* LongPressGestureRecognizer.h */,
+				2BF7F11A2768E3D500D3961D /* LongPressGestureRecognizer.m */,
+				2BF7F11C2768E44D00D3961D /* PanGestureRecognizer.h */,
+				2BF7F11D2768E44D00D3961D /* PanGestureRecognizer.m */,
+				2BF7F11F2768E4AC00D3961D /* ScreenEdgePanGestureRecognizer.h */,
+				2BF7F1202768E4AC00D3961D /* ScreenEdgePanGestureRecognizer.m */,
+				2BF7F1222769910D00D3961D /* PinchGestureRecognizer.h */,
+				2BF7F1232769910D00D3961D /* PinchGestureRecognizer.m */,
+				2BF7F1252769918A00D3961D /* RotationGestureRecognizer.h */,
+				2BF7F1262769918A00D3961D /* RotationGestureRecognizer.m */,
+			);
+			path = Gesture;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BF7F0F62768DE8400D3961D /* Gesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BF7F1102768DE8600D3961D /* Build configuration list for PBXNativeTarget "Gesture" */;
+			buildPhases = (
+				2BF7F0F32768DE8400D3961D /* Sources */,
+				2BF7F0F42768DE8400D3961D /* Frameworks */,
+				2BF7F0F52768DE8400D3961D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gesture;
+			productName = Gesture;
+			productReference = 2BF7F0F72768DE8500D3961D /* Gesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BF7F0EF2768DE8400D3961D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					2BF7F0F62768DE8400D3961D = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 2BF7F0F22768DE8400D3961D /* Build configuration list for PBXProject "Gesture" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BF7F0EE2768DE8400D3961D;
+			productRefGroup = 2BF7F0F82768DE8500D3961D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BF7F0F62768DE8400D3961D /* Gesture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BF7F0F52768DE8400D3961D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF7F10A2768DE8600D3961D /* LaunchScreen.storyboard in Resources */,
+				2BF7F1072768DE8600D3961D /* Assets.xcassets in Resources */,
+				2BF7F1052768DE8500D3961D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BF7F0F32768DE8400D3961D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF7F1242769910D00D3961D /* PinchGestureRecognizer.m in Sources */,
+				2BF7F1182768E06400D3961D /* SwipeGestureRecognizer.m in Sources */,
+				2BF7F1152768DEA400D3961D /* TapGestureRecognizerViewController.m in Sources */,
+				2BF7F11B2768E3D500D3961D /* LongPressGestureRecognizer.m in Sources */,
+				2BF7F1272769918A00D3961D /* RotationGestureRecognizer.m in Sources */,
+				2BF7F1022768DE8500D3961D /* ViewController.m in Sources */,
+				2BF7F1212768E4AC00D3961D /* ScreenEdgePanGestureRecognizer.m in Sources */,
+				2BF7F0FC2768DE8500D3961D /* AppDelegate.m in Sources */,
+				2BF7F10D2768DE8600D3961D /* main.m in Sources */,
+				2BF7F0FF2768DE8500D3961D /* SceneDelegate.m in Sources */,
+				2BF7F11E2768E44D00D3961D /* PanGestureRecognizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2BF7F1032768DE8500D3961D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BF7F1042768DE8500D3961D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2BF7F1082768DE8600D3961D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BF7F1092768DE8600D3961D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BF7F10E2768DE8600D3961D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BF7F10F2768DE8600D3961D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BF7F1112768DE8600D3961D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GB97QZV5Z7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gesture/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = muzi.Gesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BF7F1122768DE8600D3961D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GB97QZV5Z7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Gesture/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = muzi.Gesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BF7F0F22768DE8400D3961D /* Build configuration list for PBXProject "Gesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF7F10E2768DE8600D3961D /* Debug */,
+				2BF7F10F2768DE8600D3961D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BF7F1102768DE8600D3961D /* Build configuration list for PBXNativeTarget "Gesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF7F1112768DE8600D3961D /* Debug */,
+				2BF7F1122768DE8600D3961D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BF7F0EF2768DE8400D3961D /* Project object */;
+}
